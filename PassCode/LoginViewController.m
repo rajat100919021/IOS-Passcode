@@ -41,9 +41,11 @@
 }
 -(IBAction)loginButton_click:(id)sender
 {
-    if([userName.text isEqualToString:@""] &&[password.text isEqualToString:@""])
+    NSLog(@"%@",password.text);
+    if([userName.text isEqualToString:@""]||[password.text isEqualToString:@""])
     {
-        
+        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Message" message:@"Please Enter Username and Password" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+        [alert show];
     }
     else
     {
