@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044F7CC6192A1FB400BCD63E /* iphone-Background-640-1136@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 044F7CC5192A1FB400BCD63E /* iphone-Background-640-1136@2x.png */; };
+		044F7CC8192A29DC00BCD63E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044F7CC7192A29DC00BCD63E /* QuartzCore.framework */; };
+		047305FE192B0A4100D5E99F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047305FC192B0A4100D5E99F /* LoginViewController.m */; };
+		047305FF192B0A4100D5E99F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047305FD192B0A4100D5E99F /* LoginViewController.xib */; };
+		04730603192B323F00D5E99F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04730601192B323F00D5E99F /* MainViewController.m */; };
+		04730604192B323F00D5E99F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04730602192B323F00D5E99F /* MainViewController.xib */; };
+		04730608192B6F2400D5E99F /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04730606192B6F2400D5E99F /* IndexViewController.m */; };
+		04730609192B6F2400D5E99F /* IndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04730607192B6F2400D5E99F /* IndexViewController.xib */; };
+		04F59924192615EE0091A09E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F59923192615EE0091A09E /* Foundation.framework */; };
+		04F59926192615EE0091A09E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F59925192615EE0091A09E /* CoreGraphics.framework */; };
+		04F59928192615EE0091A09E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F59927192615EE0091A09E /* UIKit.framework */; };
+		04F5992E192615EE0091A09E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F5992C192615EE0091A09E /* InfoPlist.strings */; };
+		04F59930192615EE0091A09E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5992F192615EE0091A09E /* main.m */; };
+		04F59934192615EE0091A09E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F59933192615EE0091A09E /* AppDelegate.m */; };
+		04F59936192615EE0091A09E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F59935192615EE0091A09E /* Images.xcassets */; };
+		04F5993D192615EE0091A09E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F5993C192615EE0091A09E /* XCTest.framework */; };
+		04F5993E192615EE0091A09E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F59923192615EE0091A09E /* Foundation.framework */; };
+		04F5993F192615EE0091A09E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F59927192615EE0091A09E /* UIKit.framework */; };
+		04F59947192615EE0091A09E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F59945192615EE0091A09E /* InfoPlist.strings */; };
+		04F59949192615EE0091A09E /* PassCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F59948192615EE0091A09E /* PassCodeTests.m */; };
+		04F59955192616030091A09E /* PassCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F59953192616030091A09E /* PassCodeViewController.m */; };
+		04F59956192616030091A09E /* PassCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F59954192616030091A09E /* PassCodeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F59940192615EE0091A09E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F59918192615EE0091A09E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F5991F192615EE0091A09E;
+			remoteInfo = PassCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044F7CC5192A1FB400BCD63E /* iphone-Background-640-1136@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-Background-640-1136@2x.png"; sourceTree = "<group>"; };
+		044F7CC7192A29DC00BCD63E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		047305FB192B0A4100D5E99F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		047305FC192B0A4100D5E99F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		047305FD192B0A4100D5E99F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		04730600192B323F00D5E99F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04730601192B323F00D5E99F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		04730602192B323F00D5E99F /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		04730605192B6F2400D5E99F /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		04730606192B6F2400D5E99F /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		04730607192B6F2400D5E99F /* IndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndexViewController.xib; sourceTree = "<group>"; };
+		04F59920192615EE0091A09E /* PassCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F59923192615EE0091A09E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04F59925192615EE0091A09E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04F59927192615EE0091A09E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04F5992B192615EE0091A09E /* PassCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassCode-Info.plist"; sourceTree = "<group>"; };
+		04F5992D192615EE0091A09E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04F5992F192615EE0091A09E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F59931192615EE0091A09E /* PassCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PassCode-Prefix.pch"; sourceTree = "<group>"; };
+		04F59932192615EE0091A09E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F59933192615EE0091A09E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F59935192615EE0091A09E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04F5993B192615EE0091A09E /* PassCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F5993C192615EE0091A09E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04F59944192615EE0091A09E /* PassCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassCodeTests-Info.plist"; sourceTree = "<group>"; };
+		04F59946192615EE0091A09E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04F59948192615EE0091A09E /* PassCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassCodeTests.m; sourceTree = "<group>"; };
+		04F59952192616030091A09E /* PassCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassCodeViewController.h; sourceTree = "<group>"; };
+		04F59953192616030091A09E /* PassCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassCodeViewController.m; sourceTree = "<group>"; };
+		04F59954192616030091A09E /* PassCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassCodeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F5991D192615EE0091A09E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044F7CC8192A29DC00BCD63E /* QuartzCore.framework in Frameworks */,
+				04F59926192615EE0091A09E /* CoreGraphics.framework in Frameworks */,
+				04F59928192615EE0091A09E /* UIKit.framework in Frameworks */,
+				04F59924192615EE0091A09E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F59938192615EE0091A09E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F5993D192615EE0091A09E /* XCTest.framework in Frameworks */,
+				04F5993F192615EE0091A09E /* UIKit.framework in Frameworks */,
+				04F5993E192615EE0091A09E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F59917192615EE0091A09E = {
+			isa = PBXGroup;
+			children = (
+				04F59929192615EE0091A09E /* PassCode */,
+				04F59942192615EE0091A09E /* PassCodeTests */,
+				04F59922192615EE0091A09E /* Frameworks */,
+				04F59921192615EE0091A09E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F59921192615EE0091A09E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F59920192615EE0091A09E /* PassCode.app */,
+				04F5993B192615EE0091A09E /* PassCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F59922192615EE0091A09E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044F7CC7192A29DC00BCD63E /* QuartzCore.framework */,
+				04F59923192615EE0091A09E /* Foundation.framework */,
+				04F59925192615EE0091A09E /* CoreGraphics.framework */,
+				04F59927192615EE0091A09E /* UIKit.framework */,
+				04F5993C192615EE0091A09E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04F59929192615EE0091A09E /* PassCode */ = {
+			isa = PBXGroup;
+			children = (
+				044F7CC5192A1FB400BCD63E /* iphone-Background-640-1136@2x.png */,
+				04F59932192615EE0091A09E /* AppDelegate.h */,
+				04F59933192615EE0091A09E /* AppDelegate.m */,
+				04F59935192615EE0091A09E /* Images.xcassets */,
+				04F5992A192615EE0091A09E /* Supporting Files */,
+				04F59952192616030091A09E /* PassCodeViewController.h */,
+				04F59953192616030091A09E /* PassCodeViewController.m */,
+				04F59954192616030091A09E /* PassCodeViewController.xib */,
+				047305FB192B0A4100D5E99F /* LoginViewController.h */,
+				047305FC192B0A4100D5E99F /* LoginViewController.m */,
+				047305FD192B0A4100D5E99F /* LoginViewController.xib */,
+				04730600192B323F00D5E99F /* MainViewController.h */,
+				04730601192B323F00D5E99F /* MainViewController.m */,
+				04730602192B323F00D5E99F /* MainViewController.xib */,
+				04730605192B6F2400D5E99F /* IndexViewController.h */,
+				04730606192B6F2400D5E99F /* IndexViewController.m */,
+				04730607192B6F2400D5E99F /* IndexViewController.xib */,
+			);
+			path = PassCode;
+			sourceTree = "<group>";
+		};
+		04F5992A192615EE0091A09E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F5992B192615EE0091A09E /* PassCode-Info.plist */,
+				04F5992C192615EE0091A09E /* InfoPlist.strings */,
+				04F5992F192615EE0091A09E /* main.m */,
+				04F59931192615EE0091A09E /* PassCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F59942192615EE0091A09E /* PassCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F59948192615EE0091A09E /* PassCodeTests.m */,
+				04F59943192615EE0091A09E /* Supporting Files */,
+			);
+			path = PassCodeTests;
+			sourceTree = "<group>";
+		};
+		04F59943192615EE0091A09E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F59944192615EE0091A09E /* PassCodeTests-Info.plist */,
+				04F59945192615EE0091A09E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F5991F192615EE0091A09E /* PassCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F5994C192615EE0091A09E /* Build configuration list for PBXNativeTarget "PassCode" */;
+			buildPhases = (
+				04F5991C192615EE0091A09E /* Sources */,
+				04F5991D192615EE0091A09E /* Frameworks */,
+				04F5991E192615EE0091A09E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassCode;
+			productName = PassCode;
+			productReference = 04F59920192615EE0091A09E /* PassCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F5993A192615EE0091A09E /* PassCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F5994F192615EE0091A09E /* Build configuration list for PBXNativeTarget "PassCodeTests" */;
+			buildPhases = (
+				04F59937192615EE0091A09E /* Sources */,
+				04F59938192615EE0091A09E /* Frameworks */,
+				04F59939192615EE0091A09E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F59941192615EE0091A09E /* PBXTargetDependency */,
+			);
+			name = PassCodeTests;
+			productName = PassCodeTests;
+			productReference = 04F5993B192615EE0091A09E /* PassCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F59918192615EE0091A09E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Rajat;
+				TargetAttributes = {
+					04F5993A192615EE0091A09E = {
+						TestTargetID = 04F5991F192615EE0091A09E;
+					};
+				};
+			};
+			buildConfigurationList = 04F5991B192615EE0091A09E /* Build configuration list for PBXProject "PassCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04F59917192615EE0091A09E;
+			productRefGroup = 04F59921192615EE0091A09E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F5991F192615EE0091A09E /* PassCode */,
+				04F5993A192615EE0091A09E /* PassCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F5991E192615EE0091A09E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047305FF192B0A4100D5E99F /* LoginViewController.xib in Resources */,
+				04730604192B323F00D5E99F /* MainViewController.xib in Resources */,
+				04F5992E192615EE0091A09E /* InfoPlist.strings in Resources */,
+				04F59936192615EE0091A09E /* Images.xcassets in Resources */,
+				04730609192B6F2400D5E99F /* IndexViewController.xib in Resources */,
+				04F59956192616030091A09E /* PassCodeViewController.xib in Resources */,
+				044F7CC6192A1FB400BCD63E /* iphone-Background-640-1136@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F59939192615EE0091A09E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F59947192615EE0091A09E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F5991C192615EE0091A09E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047305FE192B0A4100D5E99F /* LoginViewController.m in Sources */,
+				04F59955192616030091A09E /* PassCodeViewController.m in Sources */,
+				04F59934192615EE0091A09E /* AppDelegate.m in Sources */,
+				04730603192B323F00D5E99F /* MainViewController.m in Sources */,
+				04F59930192615EE0091A09E /* main.m in Sources */,
+				04730608192B6F2400D5E99F /* IndexViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F59937192615EE0091A09E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F59949192615EE0091A09E /* PassCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F59941192615EE0091A09E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F5991F192615EE0091A09E /* PassCode */;
+			targetProxy = 04F59940192615EE0091A09E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F5992C192615EE0091A09E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F5992D192615EE0091A09E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04F59945192615EE0091A09E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F59946192615EE0091A09E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F5994A192615EE0091A09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F5994B192615EE0091A09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F5994D192615EE0091A09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassCode/PassCode-Prefix.pch";
+				INFOPLIST_FILE = "PassCode/PassCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04F5994E192615EE0091A09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassCode/PassCode-Prefix.pch";
+				INFOPLIST_FILE = "PassCode/PassCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04F59950192615EE0091A09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PassCode.app/PassCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassCode/PassCode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PassCodeTests/PassCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04F59951192615EE0091A09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PassCode.app/PassCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassCode/PassCode-Prefix.pch";
+				INFOPLIST_FILE = "PassCodeTests/PassCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F5991B192615EE0091A09E /* Build configuration list for PBXProject "PassCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F5994A192615EE0091A09E /* Debug */,
+				04F5994B192615EE0091A09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F5994C192615EE0091A09E /* Build configuration list for PBXNativeTarget "PassCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F5994D192615EE0091A09E /* Debug */,
+				04F5994E192615EE0091A09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F5994F192615EE0091A09E /* Build configuration list for PBXNativeTarget "PassCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F59950192615EE0091A09E /* Debug */,
+				04F59951192615EE0091A09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F59918192615EE0091A09E /* Project object */;
+}
